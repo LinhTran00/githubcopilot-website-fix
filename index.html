@@ -1,1 +1,69 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coca-Cola Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .navbar {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .hero {
+            background: linear-gradient(to right, #ff0000, #f2f2f2);
+            height: 300px;
+            position: relative;
+        }
+        .hero .description {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <a href="#menu" style="color: #ffffff; background-color: #b30000;">Menu</a>
+        <a href="#products" style="color: #ffffff; background-color: #b30000;">Products</a>
+        <a href="#services" style="color: #ffffff; background-color: #b30000;">Services</a>
+    </div>
+    <div class="hero">
+        <div class="description">
+            <h1>Coca-Cola</h1>
+            <p>Refreshing the world, one story at a time.</p>
+        </div>
+    </div>
+    <div class="section" id="menu">
+        <h2>Menu</h2>
+        <p>Discover our variety of refreshing beverages.</p>
+    </div>
+    <div class="section" id="products">
+        <h2>Products</h2>
+        <p>Explore our range of products and find your new favorite drink.</p>
+    </div>
+    <div class="section" id="services">
+        <h2>Services</h2>
+        <p>Learn about our services and how we can help you.</p>
+    </div>
+</body>
+</html>
